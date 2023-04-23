@@ -11,14 +11,14 @@ computer = 'o'
 printb(board)
 
 def playerinput(board):
-        try:
-            inp_row= int(input("insert row number "))
-            inp_col= int(input("insert col number "))
-            if inp_row >=1 and inp_row <=3  and inp_col>=1 and inp_col<=3 and board[inp_row-1][inp_col-1]=='-':
-                board[inp_row-1][inp_col-1]=player
-        except: 
-            print ("aaaaa")
-        return board
+     while True:
+          inp_row= int(input("insert row number "))
+          inp_col= int(input("insert col number "))
+          if inp_row >=1 and inp_row <=3  and inp_col>=1 and inp_col<=3 and board[inp_row-1][inp_col-1]=='-':
+               board[inp_row-1][inp_col-1]=player
+               return True
+          else:
+               continue
 def wincheck(board):
      for i in range(3):
           if board[i][0]==board[i][1]==board[i][2] and board[i][0]!='-':
