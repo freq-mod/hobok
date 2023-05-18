@@ -1,0 +1,88 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: rgb(32,38,71);
+	background: radial-gradient(circle, rgba(32,38,71,1) 0%, rgba(28,33,65,1) 8%, rgba(62,25,33,1) 100%);
+}
+
+#Glowny
+{
+	font-family:Arial;
+	width:1000px;
+	margin:0 auto;
+	background-color:#FDF2EA;
+	border:2px solid #340846;
+}
+
+#Naglowek
+{
+	font-family:'MS PGothic';
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,31,1) 20%, rgba(13,13,83,1) 35%, rgba(21,67,77,1) 97%, rgba(25,55,61,1) 100%);;
+	font-size: 30px;
+	color: FDF2EA;
+	width:972px;
+	height:88px;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	padding: 14px;
+}
+#Info
+{
+	width:972px;
+	height:440px;
+	color: #f1e4dc;
+	background-color:#230b2e;
+	border-bottom:2px solid #350431;
+	padding: 14px;
+}
+
+#Podzial1
+{
+	width:972px;
+	height:32px;
+	color: #AE917F;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(7,7,31,1) 20%, rgba(13,13,83,1) 35%, rgba(21,67,77,1) 97%, rgba(25,55,61,1) 100%);;
+	border-bottom:2px solid #330333;
+	padding: 14px;
+	padding-top: 4px;
+
+}
+img
+{
+		float:right;
+	}
+h1
+{
+	margin: 0;
+	padding: 0;	
+}
+h6
+{
+	margin: 5;
+	padding: 0;	
+}
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: #2a033b;
+  }
+  li {
+	float: left;
+	margin-left: 136;
+	padding: 0;
+  }
+  li a {
+	display: block;
+	text-align: center;
+	color: #c3bdff;
+	padding: 10px 12px;
+  }
+  li a:hover {
+	background-color: #55e0c2;
+	color: #4737f0;
+  }
