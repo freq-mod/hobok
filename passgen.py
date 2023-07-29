@@ -8,10 +8,11 @@ def passgen(length):
         punctuation=secrets.choice(string.punctuation)
         password += letter + digit + punctuation
         if len(password)>length:
+            password=password[:length]
             break
     return password
 
-length=10
+length=7
 
 print(passgen(length))
 print ("Successfully generated a password of"+ str(length) + "characters long")

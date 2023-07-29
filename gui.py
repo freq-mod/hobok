@@ -9,18 +9,20 @@ def passgen():
         digit=secrets.choice(string.digits)
         punctuation=secrets.choice(string.punctuation)
         password += letter + digit + punctuation
-        if len(password)>temp_len.get()-2:
+        if len(password)>temp_len.get():
+            password=password[:temp_len.get()]
             break
     output_pass.set(password)
 
 window=Tk()
 output_pass = StringVar()
 window.geometry("320x240")
-window.title="password generator"
+window.title("password generator")
 
 label= Label(window, text = 'Length', font = 'PC-9800').pack(pady=10)
 temp_len = IntVar()
-length= Spinbox(window, from_ =0, to_=32, increment=3, textvariable = temp_len , width = 20, font='PC-9800').pack()
+##length= Spinbox(window, from_ =0, to_=32, increment=3, textvariable = temp_len , width = 20, font='PC-9800').pack()
+length= Spinbox(window, from_ =0, to_=32, textvariable = temp_len , width = 20, font='PC-9800').pack()
 
 Button(window, text = "Generate" , command = passgen, font="PC-9800", bg='lightblue', fg='black', activebackground="teal", padx=5, pady=5 ).pack(pady= 20)
 pass_label = Label(window, text = 'password:', font = 'PC-9800').pack(pady="20 10")
