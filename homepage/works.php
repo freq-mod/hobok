@@ -3,7 +3,7 @@
         <meta http-equiv="content-type" content="text/html">
         <meta charset="UTF-16">
         <meta name="generator" content="WebSite PRO 4.3">
-        <title>JSTARDS BTFO</title>
+        <title>JS</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <style type="text/css">
@@ -15,7 +15,7 @@
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <body>
-  <div id="Glowny">
+  <div id="Main">
   <?php include 'header.php';?>
   <center>
     <h2> My works </h2>

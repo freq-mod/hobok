@@ -3,15 +3,15 @@
         <meta http-equiv="content-type" content="text/html">
         <meta charset="UTF-16">
         <meta name="generator" content="WebSite PRO 4.3">
-        <title>JSTARDS BTFO</title>
+        <title>JS</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div id="Glowny">
+<div id="Main">
 <?php include 'header.php';?>
 <div id="Info">
 <center>
-<h4>Welcum to my crappy ass page. Under construction</h4> <font color="#61432A">
+<h4>Welcum to my crappy page. Under construction</h4> <font color="#61432A">
 </center>
 </div>
 

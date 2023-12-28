@@ -1,9 +1,9 @@
 <div class="header">
-<div id="Naglowek">
+<div id="Header">
 <h1>周波数変調<h1>
     <h6>The dissonance of a distorted phase...</h6>
 </div>
-<div id="Podzial1">
+<div id="Division1">
     <center>
     </center>
     <ul>

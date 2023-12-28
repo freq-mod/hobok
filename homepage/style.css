@@ -6,7 +6,7 @@ body
 	background: radial-gradient(circle, rgba(32,38,71,1) 0%, rgba(28,33,65,1) 8%, rgba(62,25,33,1) 100%);
 }
 
-#Glowny
+#Main
 {
 	font-family:Arial;
 	width:1000px;
@@ -15,7 +15,7 @@ body
 	border:2px solid #340846;
 }
 
-#Naglowek
+#Header
 {
 	font-family:'MS PGothic';
 	background: rgb(2,0,36);
@@ -39,7 +39,7 @@ body
 	padding: 14px;
 }
 
-#Podzial1
+#Division1
 {
 	width:972px;
 	height:32px;
