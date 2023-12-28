@@ -11,7 +11,7 @@
 <?php include 'header.php';?>
 <div id="Info">
 <center>
-<h4>Welcum to my crappy page. Under construction</h4> <font color="#61432A">
+<h4>Welcome to my page. Under construction</h4> <font color="#61432A">
 </center>
 </div>
 
